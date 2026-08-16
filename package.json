@@ -1,0 +1,17 @@
+{
+  "name": "dsh-redact",
+  "version": "0.1.0",
+  "description": "Scrub secrets and PII from a DeepSeek Harness session log so you can share it safely (API keys, tokens, private keys, emails, home paths).",
+  "type": "module",
+  "bin": {
+    "dsh-redact": "bin/redact.mjs"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "scripts": {
+    "test": "node --test test/redact.test.mjs"
+  },
+  "keywords": ["deepseek-harness", "dsh", "security", "redact", "anonymize", "pii"],
+  "license": "MIT"
+}
